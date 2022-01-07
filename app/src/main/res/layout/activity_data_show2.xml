@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/noticeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:padding="3dp"
+            android:text="학사팀"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:text="2020-12-12"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/databutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="조회" />
+
+    <ListView
+        android:id="@+id/noticeListView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:divider="#FFFFFF"
+        android:dividerHeight="10dp"></ListView>
+
+
+
+</LinearLayout>

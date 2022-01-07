@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CategorySelection">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_sex_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성별 선택"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_sex"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:entries="@array/sex" />
+
+        <TextView
+            android:id="@+id/tv_sex_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선택 결과"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_Top_Pants_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상의/하의 선택"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_Top_Bottom_Choice"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:entries="@array/top_or_pants" />
+
+        <TextView
+            android:id="@+id/tv_top_bottom_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선택 결과">
+        </TextView>
+
+
+        android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_top_Bottom_Length_Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상의/하의 길이 선택"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_Length_Top"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:entries="@array/length_top" />
+
+        <Spinner
+            android:id="@+id/spinner_Length_Bottom"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:entries="@array/length_bottom" />
+
+        <TextView
+            android:id="@+id/tv_top_Bottom_Length_Result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선택 결과"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_More_Details_One_Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상세정보1 선택"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_more_details_one_top"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:entries="@array/top_neck" />
+
+        <Spinner
+            android:id="@+id/spinner_more_details_one_bottom"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:entries="@array/bottom_type" />
+
+        <TextView
+            android:id="@+id/tv_More_Details_One_Result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선택 결과">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tv_More_Details_Two_Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상세정보2 선택"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="109dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_more_details_two_top"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:entries="@array/pattern" />
+
+        <Spinner
+            android:id="@+id/spinner_more_details_two_bottom"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:entries="@array/pants_materials" />
+
+        <TextView
+            android:id="@+id/tv_More_Details_Two_Result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선택 결과">
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_keyword"
+            android:layout_width="89dp"
+            android:layout_height="41dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/button_background"
+            android:text="search"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</LinearLayout>

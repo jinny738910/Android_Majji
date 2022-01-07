@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "762848770715",
+    "project_id": "majji-df040",
+    "storage_bucket": "majji-df040.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762848770715:android:295fcef83e35d1323b643e",
+        "android_client_info": {
+          "package_name": "com.example.majji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762848770715-te7mr4bv92m6p35austhdgbvvad7c879.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw0kpEwyTIzwkQHofEPQsWfNtuRQCvUQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762848770715-te7mr4bv92m6p35austhdgbvvad7c879.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

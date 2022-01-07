@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="sex">
+        <item>None</item>
+        <item>MAN</item>
+        <item>WOMAN</item>
+    </string-array>
+
+    <string-array name="top_or_pants">
+        <item>None</item>
+        <item>Top</item>
+        <item>Bottom</item>
+    </string-array>
+
+
+    <string-array name="length_top">
+        <item>None</item>
+        <item>Top_Long</item>
+        <item>Top_Short</item>
+    </string-array>
+
+    <string-array name="length_bottom">
+        <item>None</item>
+        <item>Bottom_Long</item>
+        <item>Bottom_Short</item>
+    </string-array>
+
+
+    <string-array name="top_type">
+        <item>None</item>
+        <item>HOODIE</item>
+        <item>TSHIRT</item>
+        <item>jacket</item>
+        <item>knit</item>
+    </string-array>
+
+    <string-array name="top_neck">
+        <item>None</item>
+        <item>U-neck</item>
+        <item>V-neck</item>
+    </string-array>
+
+    <string-array name="pattern">
+        <item>None</item>
+        <item>striped</item>
+        <item>floral</item>
+        <item>polka dot</item>
+        <item>checked</item>
+    </string-array>
+
+    <string-array name="bottom_type">
+        <item>None</item>
+        <item>pants</item>
+        <item>skirt</item>
+    </string-array>
+
+    <string-array name="skirt_length">
+        <item>None</item>
+        <item>long</item>
+        <item>medium</item>
+        <item>short</item>
+    </string-array>
+
+    <string-array name="pants_length">
+        <item>None</item>
+        <item>long</item>
+        <item>short</item>
+    </string-array>
+
+    <string-array name="pants_materials">
+        <item>None</item>
+        <item>jeans</item>
+        <item>cotton</item>
+    </string-array>
+
+
+</resources>

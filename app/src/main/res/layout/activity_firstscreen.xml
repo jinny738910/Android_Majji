@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:background="#0055D4"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="60dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="back"
+            android:background="@drawable/button_background"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/tv_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="성별"
+            android:background="@drawable/keyword_background"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/tv_top_pants"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="상/하의"
+            android:background="@drawable/keyword_background"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/tv_top_pants_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="상/하의 길이"
+            android:background="@drawable/keyword_background"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/tv_more_details_one"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="상세1"
+            android:background="@drawable/keyword_background"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/tv_more_details_two"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="상세2"
+            android:background="@drawable/keyword_background"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_resultAmount"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="검색 결과 개수" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="497dp"
+        android:orientation="horizontal">
+
+        <GridView
+            android:id="@+id/gv_itemlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|right"
+            android:layout_marginTop="10dp"
+            android:horizontalSpacing="4dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="4dp"
+            android:gravity="center">
+
+        </GridView>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

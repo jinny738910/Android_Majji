@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="416dp"
+        android:layout_height="75dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:buttonGravity="bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#0055D4"
+        />
+
+    <Button
+        android:id="@+id/btn_backtogrid"
+        android:layout_width="89dp"
+        android:layout_height="41dp"
+        android:background="@drawable/button_background"
+        android:text="back"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/iv_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="328dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/a" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp">
+
+            <TextView
+                android:id="@+id/tv_keyword_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="matched keyword1"
+                android:background="@drawable/keyword_background"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/tv_keyword_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="matched keyword2"
+                android:background="@drawable/keyword_background"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/tv_keyword_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="matched keyword3"
+                android:background="@drawable/keyword_background"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/tv_keyword_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="matched keyword4"
+                android:background="@drawable/keyword_background"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/tv_keyword_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="matched keyword5"
+                android:background="@drawable/keyword_background"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:linksClickable="true"
+            android:text="purchase url" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
